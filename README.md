@@ -1,3 +1,1 @@
-# nucampsite
-# bekind
 # bekind
