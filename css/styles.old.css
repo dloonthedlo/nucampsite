@@ -1,28 +1,23 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
-h1 {
-  color: black;
-}
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
 
 h2 {
-  color: #000000; }
-  
-h3 {
-  color: #000000; 
-  font-size: 20px; }
+  color: #3046C5; }
 
 header h2 {
-  color: #000000; }
+  color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient(#ffffff, white);
+  background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
   color: white; }
 
 .row-content {
@@ -31,7 +26,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: #000000; }
+  background-color: #901CAD; }
 
 .carousel {
   border: solid #5637dd; }
@@ -47,11 +42,3 @@ header h2 {
   right: 0;
   bottom: 0;
   z-index: 100; }
-
-#reserveModal .modal-header {
-  background-color: #17A2B8;
-  color: white; }
-
-#loginModal .modal-header {
-  background-color: #901CAD;
-  color: white; }
