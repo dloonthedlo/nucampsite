@@ -2,40 +2,35 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive; }
+  font-family: 'Cabin Sketch', cursive;
+}
 
 h2 {
-  color: #3046C5; }
+  color: #000000; 
+  margin: 0px, 0px, 0px}
 
-header h2 {
-  color: #CEC8FF; }
-
-.site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+footer {
+  background-color: #c5c1e5;
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white; }
+  background-color: #e4e3e3;
+  color: rgb(0, 0, 0); }
 
 .row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px; }
+  padding: 0px 0;
+  min-height: 100px; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-color: #a73dc2; }
 
-.carousel {
-  border: solid #5637dd; }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5); 
+}
 
-.carousel {
-  border: solid #5637DD; }
 
 #carouselButton {
   position: absolute;
@@ -50,3 +45,11 @@ header h2 {
 #loginModal .modal-header {
   background-color: #901CAD;
   color: white; }
+
+.list-inline > li {
+  display: inline-block;
+} 
+
+a {
+  color: black;
+}
