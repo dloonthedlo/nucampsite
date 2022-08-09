@@ -1,5 +1,7 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; 
+  background-color: #ffffff;
+}
 
 h1, h2, h3 {
   font-family: 'Cabin Sketch', cursive;
@@ -7,7 +9,12 @@ h1, h2, h3 {
 
 h2 {
   color: #000000; 
-  margin: 0px, 0px, 0px}
+}
+
+h3 {
+  background-color: #64a0c8;
+  color: black;
+}
 
 footer {
   background-color: #c5c1e5;
@@ -26,7 +33,9 @@ footer {
 .navbar {
   background-color: #a73dc2; }
 
-
+.carousel {
+  margin-bottom: 20px;
+}
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); 
 }
@@ -43,7 +52,7 @@ footer {
   color: white; }
 
 #loginModal .modal-header {
-  background-color: #901CAD;
+  background-color: #a73dc2;;
   color: white; }
 
 .list-inline > li {
